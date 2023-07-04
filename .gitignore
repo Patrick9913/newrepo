@@ -3,4 +3,5 @@ fuentes/
 *.log
 *.map
 *.psd
+*.json
 *.vscode
