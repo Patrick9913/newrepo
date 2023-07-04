@@ -1,0 +1,105 @@
+// etiquetas comunes
+
+* {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: $mainFont;
+    color: $mainColor;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $secondaryColor;
+    
+    nav {
+        background-color: $backgroundColorOne;
+    }
+    header {
+        background-image: url(../images/hipster-couple-talking-cafe.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 700px;
+        padding: 25px;
+        margin-bottom: 50px;
+        box-shadow: 0 0 25px;
+        h1 {
+            color: $secondaryColor;
+        }
+    }
+    footer {
+        background-color: $backgroundColorOne;
+        padding: 25px;
+    }
+}
+
+// clases comunes 
+
+.flex-align2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.c-white {
+    color: $secondaryColor;
+}
+.c-wheat {
+    color: $paletColorOne;
+}
+.input-properties {
+    width: 100%;
+    height: 58px;
+    outline: none;
+    border: 1px solid $borderColorOne;
+    padding: 16px 12px;
+    border-radius: 7px;
+    box-shadow: none;
+}
+.svg-modifier2 {
+    width: 45px;
+    height: 45px;
+    fill: $secondaryColor;
+}
+.svg-modifier3 {
+    width: 84px;
+    height: 84px;
+    fill: $secondaryColor;
+}
+.svg-modifier {
+    width: 25px;
+    height: 25px;
+    fill: white;
+    opacity: 0.7;
+    transition: calc(0.5s);
+    &:hover {
+        opacity: 1;
+    }
+}
+.font-modifier {
+    font-family: 'Dosis', sans-serif;
+    font-size: 4rem;
+}
+.font-modifier-gen {
+    font-family: $secondaryFont;
+}
+.basis {
+    flex-basis: 50%;
+}
+.button {
+    background-color: $backgroundColorOne;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 7px;
+    opacity: 0.9;
+    transition: calc(0.5s);
+    &:hover {
+        opacity:1
+    }
+}
+.a-mod {
+    color: $mainColor;
+    margin: 0px 25px;
+}

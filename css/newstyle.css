@@ -1,4 +1,333 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans+Narrow&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+* {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #34495e;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+body nav {
+  background-color: #006266;
+}
+body header {
+  background-image: url(../images/hipster-couple-talking-cafe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  padding: 25px;
+  margin-bottom: 50px;
+  box-shadow: 0 0 25px;
+}
+body header h1 {
+  color: #ffffff;
+}
+body footer {
+  background-color: #006266;
+  padding: 25px;
+}
+
+.flex-align2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-white {
+  color: #ffffff;
+}
+
+.c-wheat {
+  color: #f5deb3;
+}
+
+.input-properties {
+  width: 100%;
+  height: 58px;
+  outline: none;
+  border: 1px solid #dee2e6;
+  padding: 16px 12px;
+  border-radius: 7px;
+  box-shadow: none;
+}
+
+.svg-modifier2 {
+  width: 45px;
+  height: 45px;
+  fill: #ffffff;
+}
+
+.svg-modifier3 {
+  width: 84px;
+  height: 84px;
+  fill: #ffffff;
+}
+
+.svg-modifier {
+  width: 25px;
+  height: 25px;
+  fill: white;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.svg-modifier:hover {
+  opacity: 1;
+}
+
+.font-modifier {
+  font-family: "Dosis", sans-serif;
+  font-size: 4rem;
+}
+
+.font-modifier-gen {
+  font-family: "Dosis", sans-serif;
+}
+
+.basis {
+  flex-basis: 50%;
+}
+
+.button {
+  background-color: #006266;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 7px;
+  opacity: 0.9;
+  transition: 0.5s;
+}
+.button:hover {
+  opacity: 1;
+}
+
+.a-mod {
+  color: #34495e;
+  margin: 0px 25px;
+}
+
+.opinion {
+  width: 500px;
+  height: 250px;
+}
+
+.father-index {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.article {
+  flex-basis: 20%;
+  min-width: 320px;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.article:hover {
+  opacity: 1;
+}
+
+.padding {
+  padding: 0 15px;
+}
+
+.padding-box {
+  padding: 25px;
+}
+
+.margin {
+  margin: 25px 0px 0px;
+}
+
+.div-footer {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.div-divider {
+  border-bottom: 1px solid #ffffff;
+  margin-top: 10px;
+}
+
+.sec-footer {
+  width: 100%;
+}
+
+.font-modifier-b {
+  font-family: "Dosis", sans-serif;
+  font-size: 3rem;
+}
+
+.text-area {
+  width: 100%;
+  height: 240px;
+  outline: none;
+  border: 1px solid #dee2e6;
+  padding: 6px 12px;
+  border-radius: 7px;
+  box-shadow: none;
+}
+
+.contact-area {
+  width: 580px;
+}
+
+.father-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.father-us2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.img-size4 {
+  width: 100%;
+  height: auto;
+}
+
+.p-img {
+  padding: 5px;
+}
+
+.m-sides {
+  margin: 0px 50px;
+}
+
+.d-grid {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2);
+  grid-template-areas: "a1 a2 a3 a4" "a5 a6 a7 a8";
+}
+.d-grid .a1 {
+  grid-area: a1;
+  display: grid;
+  place-items: center;
+}
+.d-grid .a2 {
+  grid-area: a2;
+  display: grid;
+  place-items: center;
+}
+.d-grid .a3 {
+  grid-area: a3;
+  display: grid;
+  place-items: center;
+}
+.d-grid .a4 {
+  grid-area: a4;
+  display: grid;
+  place-items: center;
+}
+.d-grid .a5 {
+  grid-area: a5;
+  display: grid;
+  place-items: center;
+}
+.d-grid .a6 {
+  grid-area: a6;
+  display: grid;
+  place-items: center;
+}
+.d-grid .a7 {
+  grid-area: a7;
+  display: grid;
+  place-items: center;
+}
+.d-grid .a8 {
+  grid-area: a8;
+  display: grid;
+  place-items: center;
+}
+
+.ing-area {
+  width: 580px;
+}
+
+.ing-bgm {
+  background-image: url(../images/sideways-woman-working-her-laptop-coffee-shop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.ing-inter {
+  width: 580px;
+}
+
+.h-inter {
+  height: 500px;
+}
+
+@media (width < 1400px) {
+  .font-modifier {
+    font-size: 3rem;
+  }
+  .father-us {
+    flex-direction: column;
+  }
+  .father-us2 {
+    flex-direction: column;
+  }
+  .d-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "a1 a2" "a3 a4" "a5 a6" "a7 a8";
+  }
+}
+@media (width < 1200px) {
+  .font-modifier {
+    font-size: 3.5rem;
+  }
+}
+@media (width < 992px) {
+  .font-modifier {
+    font-size: 2rem;
+  }
+}
+@media (width < 768px) {
+  .ing-inter {
+    width: 480px;
+  }
+  .d-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas: "a1" "a2" "a3" "a4" "a5" "a6" "a7" "a8";
+  }
+}
+@media (width < 576px) {
+  header {
+    height: 500px;
+  }
+  .font-modifier {
+    font-size: 2rem;
+  }
+  .basis {
+    flex-basis: 100%;
+  }
+}
+@media (width < 496px) {
+  .ing-inter {
+    width: 320px;
+  }
+}
 
 /*# sourceMappingURL=newstyle.css.map */

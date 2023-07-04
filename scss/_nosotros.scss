@@ -1,0 +1,24 @@
+.father-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.father-us2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-size4 {
+    width: 100%;
+    height: auto;
+}
+.p-img {
+    padding: 5px;
+}
+.m-sides {
+    margin: 0px 50px;
+}

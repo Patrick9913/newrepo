@@ -1,0 +1,49 @@
+.d-grid {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2);
+    grid-template-areas: 
+    "a1 a2 a3 a4"
+    "a5 a6 a7 a8";
+    .a1 {
+        grid-area: a1;
+        display: grid;
+        place-items: center;
+    }
+    .a2 {
+        grid-area: a2;
+        display: grid;
+        place-items: center;
+    }
+    .a3 {
+        grid-area: a3;
+        display: grid;
+        place-items: center;
+    }
+    .a4 {
+        grid-area: a4;
+        display: grid;
+        place-items: center;
+    }
+    .a5 {
+        grid-area: a5;
+        display: grid;
+        place-items: center;
+    }
+    .a6 {
+        grid-area: a6;
+        display: grid;
+        place-items: center;
+    }
+    .a7 {
+        grid-area: a7;
+        display: grid;
+        place-items: center;
+    }
+    .a8 {
+        grid-area: a8;
+        display: grid;
+        place-items: center;
+    }
+}

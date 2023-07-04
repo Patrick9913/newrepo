@@ -1,0 +1,45 @@
+.opinion {
+    width: 500px;
+    height: 250px;
+}
+.father-index {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.article {
+    flex-basis: 20%;
+    min-width: 320px;
+    opacity: 0.8;
+    transition: calc(0.5s);
+    &:hover {
+        opacity: 1;
+    }
+}
+.padding {
+    padding: 0 15px;
+}
+.padding-box {
+    padding: 25px;
+}
+.margin {
+    margin: 25px 0px 0px;
+}
+.div-footer {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.div-divider {
+    border-bottom: 1px solid $secondaryColor;
+    margin-top: 10px;
+}
+.sec-footer {
+    width: 100%;
+}
+.font-modifier-b {
+    font-family: 'Dosis', sans-serif;
+    font-size: 3rem;
+}
