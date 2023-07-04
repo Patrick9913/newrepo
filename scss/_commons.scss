@@ -70,7 +70,7 @@ body {
 .svg-modifier {
     width: 25px;
     height: 25px;
-    fill: white;
+    fill: $secondaryColor;
     opacity: 0.7;
     transition: calc(0.5s);
     &:hover {
@@ -79,6 +79,11 @@ body {
 }
 .font-modifier-gen {
     font-family: $secondaryFont;
+}
+.font-mod-h1 {
+    @extend .font-modifier-gen;
+    font-size: 4rem;
+    
 }
 .basis {
     flex-basis: 50%;

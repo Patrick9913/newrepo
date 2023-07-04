@@ -73,7 +73,7 @@ body footer {
 .svg-modifier {
   width: 25px;
   height: 25px;
-  fill: white;
+  fill: #ffffff;
   opacity: 0.7;
   transition: 0.5s;
 }
@@ -81,13 +81,12 @@ body footer {
   opacity: 1;
 }
 
-.font-modifier {
+.font-modifier-gen, .font-mod-h1 {
   font-family: "Dosis", sans-serif;
-  font-size: 4rem;
 }
 
-.font-modifier-gen {
-  font-family: "Dosis", sans-serif;
+.font-mod-h1 {
+  font-size: 4rem;
 }
 
 .basis {
