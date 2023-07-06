@@ -36,11 +36,12 @@ body {
 
 // clases comunes 
 
-.flex-align2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.flex-align-svg {
+    @include flex ( column , center , center , wrap)
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
 }
 .c-white {
     color: $secondaryColor;
@@ -82,8 +83,7 @@ body {
 }
 .font-mod-h1 {
     @extend .font-modifier-gen;
-    font-size: 4rem;
-    
+    font-size: 4em;  
 }
 .basis {
     flex-basis: 50%;

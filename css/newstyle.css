@@ -33,11 +33,12 @@ body footer {
   padding: 25px;
 }
 
-.flex-align2 {
+.flex-align-svg {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .c-white {
@@ -86,7 +87,7 @@ body footer {
 }
 
 .font-mod-h1 {
-  font-size: 4rem;
+  font-size: 4em;
 }
 
 .basis {
@@ -293,12 +294,12 @@ body footer {
   }
 }
 @media (width < 1200px) {
-  .font-modifier {
+  .font-mod-h1 {
     font-size: 3.5rem;
   }
 }
 @media (width < 992px) {
-  .font-modifier {
+  .font-mod-h1 {
     font-size: 2rem;
   }
 }
@@ -316,7 +317,7 @@ body footer {
   header {
     height: 500px;
   }
-  .font-modifier {
+  .font-mod-h1 {
     font-size: 2rem;
   }
   .basis {
