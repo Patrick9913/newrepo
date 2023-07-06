@@ -1,13 +1,11 @@
+@import "_mixins";
+
 .opinion {
     width: 500px;
     height: 250px;
 }
 .father-index {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+    @include flex ( row , space-around , center , wrap );
 }
 .article {
     flex-basis: 20%;

@@ -1,16 +1,10 @@
+@import "_mixins";
+
 .father-us {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+    @include flex ( row , space-around , center , wrap );
 }
 .father-us2 {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+    @include flex ( row-reverse , space-around , center , wrap );
 }
 .img-size4 {
     width: 100%;
