@@ -15,3 +15,8 @@
     grid-template-areas: $areas;
 }
 
+@mixin spacing ($margin,$padding){
+    margin: $margin;
+    padding: $padding;
+}
+
