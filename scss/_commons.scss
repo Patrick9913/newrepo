@@ -38,10 +38,6 @@ body {
 
 .flex-align-svg {
     @include flex ( column , center , center , wrap)
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
 }
 .c-white {
     color: $secondaryColor;
