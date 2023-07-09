@@ -153,9 +153,13 @@ body footer {
   justify-content: center;
 }
 
-.div-divider {
+.div-divider, .div-divider2 {
   border-bottom: 1px solid #ffffff;
   margin-top: 10px;
+}
+
+.div-divider2 {
+  border-bottom: 1px solid #34495e;
 }
 
 .sec-footer {
