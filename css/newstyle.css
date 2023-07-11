@@ -17,7 +17,7 @@ body nav {
   background-color: #222f3e;
 }
 body header {
-  background-image: url(../images/hipster-couple-talking-cafe.jpg);
+  background-image: url(../images/Header-index.webp);
   background-size: cover;
   background-repeat: no-repeat;
   height: 700px;
@@ -297,7 +297,7 @@ body footer {
 }
 
 .ing-bgm {
-  background-image: url(../images/sideways-woman-working-her-laptop-coffee-shop.jpg);
+  background-image: url(../images/Header-ing.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -339,9 +339,6 @@ body footer {
 }
 
 @media (width < 1400px) {
-  .font-modifier {
-    font-size: 3rem;
-  }
   .father-us {
     flex-direction: column;
   }
