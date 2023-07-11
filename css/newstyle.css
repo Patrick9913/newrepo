@@ -33,6 +33,10 @@ body footer {
   padding: 25px;
 }
 
+.justifier {
+  text-align: justify;
+}
+
 .flex-align-svg {
   display: flex;
   flex-direction: column;
@@ -195,6 +199,7 @@ body footer {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .father-us {
@@ -394,6 +399,9 @@ body footer {
 @media (width < 496px) {
   .ing-inter {
     width: 320px;
+  }
+  .basis {
+    flex-basis: 100%;
   }
 }
 

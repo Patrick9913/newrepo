@@ -35,6 +35,9 @@ body {
 
 // clases comunes 
 
+.justifier {
+    text-align: justify;
+}
 .flex-align-svg {
     @include flex ( column , center , center , wrap)
 }
