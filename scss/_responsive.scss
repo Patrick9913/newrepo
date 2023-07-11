@@ -59,8 +59,19 @@
     .font-mod-h1 {
         font-size: 2rem;
     }
-    .basis {
-        flex-basis: 100%;
+    .div-sizer {
+        width: 100%;
+        height: auto;
+        padding: 0px 10px;
+    }
+    .div-sizer2 {
+        width: 100%;
+        height: auto;
+        padding: 0px 10px;
+    }
+    .img-size4 {
+        width: 100%;
+        height: auto;
     }
 }
 

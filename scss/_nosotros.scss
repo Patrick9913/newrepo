@@ -1,18 +1,29 @@
 @import "_mixins";
-
+.god {
+    @include flex ( column , center , center , wrap );
+}
 .father-us {
-    @include flex ( row , space-around , center , wrap );
+    @include flex ( row , center , none , wrap );
+    gap: 50px;
 }
 .father-us2 {
-    @include flex ( row-reverse , space-around , center , wrap );
+    @include flex ( row , center , none , wrap );
+    gap: 50px;
 }
 .img-size4 {
-    width: 100%;
-    height: auto;
+    width: 520px;
+    height: 680px;
+    object-fit: cover;
 }
 .p-img {
     padding: 5px;
 }
 .m-sides {
     margin: 0px 50px;
+}
+.div-sizer {
+    @include sizing ( 520px , 680px );
+}
+.div-sizer2 {
+    @include sizing ( 520px , auto );
 }
