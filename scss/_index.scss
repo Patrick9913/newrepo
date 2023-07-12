@@ -1,5 +1,3 @@
-@import "_mixins";
-
 .opinion {
     width: 500px;
     height: 250px;
@@ -42,7 +40,7 @@
     width: 100%;
 }
 .font-modifier-b {
-    font-family: 'Dosis', sans-serif;
+    font-family: $secondaryFont;
     font-size: 3rem;
 }
 .img-webp {

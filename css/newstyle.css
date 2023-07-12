@@ -253,43 +253,27 @@ body footer {
 }
 .d-grid .a1 {
   grid-area: a1;
-  display: grid;
-  place-items: center;
 }
 .d-grid .a2 {
   grid-area: a2;
-  display: grid;
-  place-items: center;
 }
 .d-grid .a3 {
   grid-area: a3;
-  display: grid;
-  place-items: center;
 }
 .d-grid .a4 {
   grid-area: a4;
-  display: grid;
-  place-items: center;
 }
 .d-grid .a5 {
   grid-area: a5;
-  display: grid;
-  place-items: center;
 }
 .d-grid .a6 {
   grid-area: a6;
-  display: grid;
-  place-items: center;
 }
 .d-grid .a7 {
   grid-area: a7;
-  display: grid;
-  place-items: center;
 }
 .d-grid .a8 {
   grid-area: a8;
-  display: grid;
-  place-items: center;
 }
 
 .ing-area {
