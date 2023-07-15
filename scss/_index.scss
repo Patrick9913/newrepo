@@ -4,6 +4,7 @@
 }
 .father-index {
     @include flex ( row , space-around , center , wrap );
+    gap: 20px;
 }
 .article {
     flex-basis: 20%;
