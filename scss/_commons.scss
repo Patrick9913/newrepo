@@ -33,8 +33,17 @@ body {
     }
 }
 
-// clases comunes 
-
+// clases comunes
+ 
+.article {
+    flex-basis: 20%;
+    min-width: 320px;
+    opacity: 0.8;
+    transition: 0.5s;
+    &:hover {
+        opacity: 1;
+    }
+}
 .justifier {
     text-align: justify;
 }
@@ -84,7 +93,7 @@ body {
     flex-basis: 50%;
 }
 .button {
-    background-color: $backgroundColorOne;
+    background-color: $mainColor;
     color: white;
     padding: 6px 12px;
     border: none;

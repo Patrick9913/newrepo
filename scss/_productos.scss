@@ -1,8 +1,8 @@
-@import "_mixins";
 
 .d-grid {
     @include grid ( repeat (4,1fr), repeat (2,1fr), "a1 a2 a3 a4" "a5 a6 a7 a8");
     place-items: center;
+    grid-row-gap: 50px;
     .a1 {
         grid-area: a1;
     }
@@ -26,5 +26,12 @@
     }
     .a8 {
         grid-area: a8;
+    }
+}
+
+.art-product {
+    transition: 0.5s ease;
+    &:hover {
+        transform: scale(1.2);
     }
 }

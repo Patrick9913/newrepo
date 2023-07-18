@@ -1,3 +1,4 @@
+
 .opinion {
     width: 500px;
     height: 250px;
@@ -5,15 +6,6 @@
 .father-index {
     @include flex ( row , space-around , center , wrap );
     gap: 20px;
-}
-.article {
-    flex-basis: 20%;
-    min-width: 320px;
-    opacity: 0.8;
-    transition: calc(0.5s);
-    &:hover {
-        opacity: 1;
-    }
 }
 .padding {
     padding: 0 15px;
@@ -46,4 +38,9 @@
 }
 .img-webp {
     border-radius: 35px;
+}
+
+#car-size {
+    width: auto;
+    height: 700px;
 }
