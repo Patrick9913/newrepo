@@ -44,6 +44,9 @@ body {
         opacity: 1;
     }
 }
+.padermorder {
+    padding: none;
+}
 .justifier {
     text-align: justify;
 }
@@ -64,6 +67,19 @@ body {
     padding: 16px 12px;
     border-radius: 7px;
     box-shadow: none;
+}
+.border-toggler {
+    border: none;
+    &:focus {
+        box-shadow: none;
+        svg {
+            fill: $backgroundColorOne;
+        }
+    }
+}
+.svg-modifier-burger {
+    @include sizing ( 32px , 32px );
+    fill: white
 }
 .svg-modifier2 {
     @include sizing ( 45px , 45px );

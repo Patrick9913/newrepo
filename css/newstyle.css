@@ -43,6 +43,10 @@ body footer {
   opacity: 1;
 }
 
+.padermorder {
+  padding: none;
+}
+
 .justifier {
   text-align: justify;
 }
@@ -71,6 +75,22 @@ body footer {
   padding: 16px 12px;
   border-radius: 7px;
   box-shadow: none;
+}
+
+.border-toggler {
+  border: none;
+}
+.border-toggler:focus {
+  box-shadow: none;
+}
+.border-toggler:focus svg {
+  fill: #006266;
+}
+
+.svg-modifier-burger {
+  width: 32px;
+  height: 32px;
+  fill: white;
 }
 
 .svg-modifier2 {
@@ -397,6 +417,9 @@ body footer {
   }
   .basis {
     flex-basis: 100%;
+  }
+  .padermorder {
+    padding: 1.5rem;
   }
 }
 
