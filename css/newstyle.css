@@ -185,6 +185,8 @@ body footer {
 
 .div-divider2 {
   border-bottom: 1px solid #34495e;
+  margin: 50px 25px;
+  padding: none;
 }
 
 .sec-footer {
@@ -198,6 +200,10 @@ body footer {
 
 .img-webp {
   border-radius: 35px;
+}
+
+.bg-atribute {
+  background-color: #d6d2b4;
 }
 
 #car-size {

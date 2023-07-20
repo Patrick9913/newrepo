@@ -28,6 +28,7 @@
 .div-divider2 {
     @extend .div-divider;
     border-bottom: 1px solid $mainColor;
+    @include spacing ( 50px 25px , none );
 }
 .sec-footer {
     width: 100%;
@@ -38,6 +39,9 @@
 }
 .img-webp {
     border-radius: 35px;
+}
+.bg-atribute {
+    background-color: $paletColorTwo;
 }
 
 #car-size {
