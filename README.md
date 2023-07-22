@@ -57,7 +57,7 @@ Asegurate de tener instalado lo siguiente en tu pc:
 Puedes utilizar el siguiente comando **"git clone https://github.com/Patrick9913/newrepo.git"**.
 ## Paso 2: Ejecutar la aplicación 🧩🔧
 
-Las dependencias ya se encuentran en el repositorio remoto, no es necesario instalarlas nuevamente con el comando **"npm install"**. Puedes utilizar el siguiente comando: **"npm start"**. Esto permitirá que se inicie el funcionamiento correcto del proyecto, teniendo en cuenta el script de inicio que se encuentra en el archivo package.json.
+Las dependencias ya se encuentran en el package.json, pero es necesario instalarlas nuevamente con el comando **"npm install"**.
 ## Paso 3: Iniciar SASS 🎨🖌️
 
 Ten en cuenta que para trabajar en el apartado estético del proyecto, es necesario que trabajes sobre los partials de Sass. Para iniciar Sass, deberás utilizar el siguiente comando: **"npm run sass:watch"**.
