@@ -44,6 +44,27 @@ Partiendo de la idea de que CoderCoffee podría alcanzar la realidad, quiero dec
 
 ![Flork saludando](./images/florksito1.webp)
 
+# Instalación ⚙️
+El proyecto CoderCoffee es un sitio web para llevar el registro y la gestión de tu café favorito. Sigue los siguientes pasos para instalar y ejecutar el sitio en tu entorno local:
+
+## Requisitos previos 
+Asegurate de tener instalado lo siguiente en tu pc:
+- **Node.js**
+- **npm** ( generalmente se instala con Node.js )
+
+## Paso 1: Clonar el repositorio 📦📂
+
+Puedes utilizar el siguiente comando **"git clone https://github.com/Patrick9913/newrepo.git"**.
+## Paso 2: Ejecutar la aplicación 🧩🔧
+
+Las dependencias ya se encuentran en el repositorio remoto, no es necesario instalarlas nuevamente con el comando **"npm install"**. Puedes utilizar el siguiente comando: **"npm start"**. Esto permitirá que se inicie el funcionamiento correcto del proyecto, teniendo en cuenta el script de inicio que se encuentra en el archivo package.json.
+## Paso 3: Iniciar SASS 🎨🖌️
+
+Ten en cuenta que para trabajar en el apartado estético del proyecto, es necesario que trabajes sobre los partials de Sass. Para iniciar Sass, deberás utilizar el siguiente comando: **"npm run sass:watch"**.
+## Paso 4: Codear 🧠
+
+Siéntete libre de aplicar modificaciones y llevar el proyecto a distintos horizontes.
+
 ---
 
 # Vínculos de CoderCoffee 🌌
