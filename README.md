@@ -68,9 +68,9 @@ Siéntete libre de aplicar modificaciones y llevar el proyecto a distintos horiz
 ---
 
 # Vínculos de CoderCoffee 🌌
-- [CoderCoffee-Vercel-Deploy](https://codercoffee-olive.vercel.app/){:target="_blank"}
-- [CoderCoffee-GitHub-Deploy](https://patrick9913.github.io/newrepo/){:target="_blank"}
-- [CoderCoffee-GitHub-Repository](https://github.com/Patrick9913/newrepo.git){:target="_blank"}
+- [CoderCoffee-Vercel-Deploy](https://codercoffee-olive.vercel.app/)
+- [CoderCoffee-GitHub-Deploy](https://patrick9913.github.io/newrepo/)
+- [CoderCoffee-GitHub-Repository](https://github.com/Patrick9913/newrepo.git)
 
 # Agradecimientos especiales ❤️😀🚀
 ¡Bueno Lau! Me tomo este espacio extra para saludarte nuevamente y, por última vez. Quiero agradecerte enormemente por haber enseñado con tanta pasión, por motivar al grupo a seguir adelante sabiendo que el coding no es para cualquiera y, sobre todas las cosas, por darme más ganas de soñar a lo grande y querer sumergirme aún más en el mundo del coding.
