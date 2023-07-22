@@ -55,12 +55,12 @@ Asegurate de tener instalado lo siguiente en tu pc:
 ## Paso 1: Clonar el repositorio 📦📂
 
 Puedes utilizar el siguiente comando **"git clone https://github.com/Patrick9913/newrepo.git"**.
-## Paso 2: Ejecutar la aplicación 🧩🔧
+## Paso 2: Reinstalar dependencias 🧩🔧
 
 Las dependencias ya se encuentran en el package.json, pero es necesario instalarlas nuevamente con el comando **"npm install"**.
 ## Paso 3: Iniciar SASS 🎨🖌️
 
-Ten en cuenta que para trabajar en el apartado estético del proyecto, es necesario que trabajes sobre los partials de Sass. Para iniciar Sass, deberás utilizar el siguiente comando: **"npm run sass:watch"**.
+Ten en cuenta que para trabajar en el apartado estético del proyecto, es necesario que trabajes sobre los partials de SASS. Para iniciar SASS, deberás utilizar el siguiente comando: **"npm run sass:watch"**.
 ## Paso 4: Codear 🧠
 
 Siéntete libre de aplicar modificaciones y llevar el proyecto a distintos horizontes.
